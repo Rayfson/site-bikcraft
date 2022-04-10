@@ -1,0 +1,137 @@
+body {
+  background: rgb(228, 235, 235);
+  font-size: 25px;
+  margin: 0px 200px;
+}
+
+span {
+  height: 5px;
+  width: 60;
+  position: absolute;
+  background: rgb(230, 9, 9);
+  top: 30px;
+  right: -40px;
+}
+.topo {
+  text-align: center;
+  margin-top: 20px;
+  background: white;
+  padding: 10px;
+}
+ul {
+  text-align: center;
+  font-size: 30px;
+}
+.menu {
+  text-decoration: none;
+  color: black;
+  background: white;
+  margin-right: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 3px solid transparent;
+}
+.menu:hover {
+  border: 3px solid rgba(230, 14, 14, 0.973);
+}
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: white;
+}
+
+.conteudo1 {
+  position: relative;
+  display: grid;
+  place-items: start end;
+  margin-right: 10px;
+  gap: 10px;
+}
+.titulo {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+.p1 {
+  margin: 0px;
+  text-align: right;
+  place-self: start end;
+}
+.link {
+  display: block;
+  place-self: start end;
+  text-decoration: none;
+  background: red;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+}
+.link:hover {
+  background: rgba(192, 30, 30, 0.767);
+}
+.link:focus {
+  border: 2px solid black;
+  outline: 0;
+}
+
+.bick {
+  display: block;
+  max-width: 100%;
+  grid-row: 1 / 3;
+  grid-column: 2;
+}
+.conteudo1 {
+  object-fit: cover;
+  object-position: top right;
+}
+.conteudo2 {
+  display: grid;
+  border: 2px solid white;
+  grid-column: 1 / 3;
+  background: rgb(131, 134, 134);
+  grid-template-columns: 1fr 1fr;
+}
+.background {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.titulo2 {
+  place-self: center;
+  font-family: arial;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+}
+.caract {
+  background: white;
+}
+.titulo {
+  text-align: left;
+  font-size: 50px;
+  font-weight: 700;
+}
+.lista {
+  list-style: none;
+  text-align: left;
+  padding-left: 20px;
+  background: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.lidiv {
+  padding: 5px 10px;
+  border-left: 4px solid transparent;
+}
+.lista div:nth-child(odd) {
+  background: rgb(131, 134, 134);
+}
+.lidiv:hover {
+  border-left: 4px solid red;
+}
+.rodape {
+  text-align: center;
+  background: white;
+  padding: 10px;
+}
